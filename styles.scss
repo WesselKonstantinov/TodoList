@@ -46,9 +46,18 @@ body {
         align-items: center;
     }
 
-    &__icon-wrapper {
+    &__edit-icon-wrapper {
         margin-left: auto;
         cursor: pointer;
+    }
+
+    &__delete-icon-wrapper {
+        cursor: pointer;
+        margin-left: 4px;
+    }
+
+    &__edit-icon {
+        width: 15px;
     }
 
     &__delete-icon {

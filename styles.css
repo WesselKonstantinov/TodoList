@@ -41,9 +41,16 @@ body {
   display: flex;
   align-items: center;
 }
-.todo-list__icon-wrapper {
+.todo-list__edit-icon-wrapper {
   margin-left: auto;
   cursor: pointer;
+}
+.todo-list__delete-icon-wrapper {
+  cursor: pointer;
+  margin-left: 4px;
+}
+.todo-list__edit-icon {
+  width: 15px;
 }
 .todo-list__delete-icon {
   width: 20px;
