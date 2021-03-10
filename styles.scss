@@ -67,4 +67,10 @@ body {
     &__checkbox {
         margin-right: 8px;
     }
+
+    &__label {
+        &--completed {
+            text-decoration: line-through;
+        }
+    }
 }
