@@ -5,7 +5,6 @@ const addTodoToDOM = todo => {
     // Generate a list item for each todo and append it to the list
     const listItem = document.createElement('li');
     listItem.setAttribute('class', 'todo-list__item');
-    //listItem.id = todo._id;
     todoList.appendChild(listItem);
 
     // Generate a checkbox for each todo and place it inside the list item
