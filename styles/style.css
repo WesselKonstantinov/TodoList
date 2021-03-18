@@ -1,0 +1,63 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 0 0 15px 15px;
+}
+
+/* Header Styles */
+.header__title {
+  text-align: center;
+}
+
+/* Main Content Styles */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__input, .content__button {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 5px;
+}
+
+.todo-list {
+  width: 264px;
+  padding: 0;
+}
+.todo-list__item {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+}
+.todo-list__edit-icon-wrapper {
+  margin-left: auto;
+  cursor: pointer;
+}
+.todo-list__delete-icon-wrapper {
+  cursor: pointer;
+  margin-left: 4px;
+}
+.todo-list__edit-icon {
+  width: 15px;
+}
+.todo-list__delete-icon {
+  width: 20px;
+}
+.todo-list__checkbox {
+  margin-right: 8px;
+}
+.todo-list__label--completed {
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
